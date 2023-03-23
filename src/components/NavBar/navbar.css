@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.navbar > * {
+    color: #9c6644;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.navbar > *:hover {
+    color: #e76f51;
+}
